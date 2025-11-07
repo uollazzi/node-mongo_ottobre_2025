@@ -11,4 +11,5 @@ driver.insertProdotto("Cappello da capitano Hugh Hefner", "Men's cloth")
         driver.getProdotti().then(p => console.log(p));
     });
 
-
+import * as orm from "./orm";
+orm.getCategorie().then(risultato => console.log(risultato));
