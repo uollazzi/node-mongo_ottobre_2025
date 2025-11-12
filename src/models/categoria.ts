@@ -17,3 +17,4 @@ const categoriaSchema = new mongoose.Schema<ICategoria>({
 });
 
 export const Categoria = mongoose.model<ICategoria>("Categoria", categoriaSchema, "categorie");
+
